@@ -14,4 +14,5 @@ The repository contains a folder for each of the project outputs:
 * Source code for Fake Data Generation (reformulate)
 * Source code for the Flight Planning UI
 * Source code for the OWSAS
-  
+
+In addition to this, a folder containing examples and demonstrations on how to use the code is included. This takes the form of videos, Python scripts and Jupyter notebooks.
