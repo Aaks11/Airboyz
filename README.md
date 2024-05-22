@@ -8,7 +8,7 @@ This repository contains the source code for project Airwaze (officially Airwaze
 * Swapnil Patil (Swapnil.Patil.897@cranfield.ac.uk)
 
 towards the completion of the MSc in Aerospace Computational Engineering at Cranfield University.
-(more about project itself)
+
 # Contents
 The repository contains a folder for each of the project outputs:
 * Source code for Fake Data Generation (reformulate)
