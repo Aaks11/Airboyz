@@ -11,8 +11,8 @@ towards the completion of the MSc in Aerospace Computational Engineering at Cran
 
 # Contents
 The repository contains a folder for each of the project outputs:
-* Source code for Fake Data Generation (reformulate)
-* Source code for the Flight Planning UI
-* Source code for the OWSAS
+* Source code for the GUI, split into two (one folder for Flight Planning, the other for the OWSAS)
+* Source code for Mock Data Generation
+* Source code for the In-House Flight Path Optimisation Algorithm
 
-In addition to this, a folder containing examples and demonstrations on how to use the code is included. This takes the form of videos, Python scripts and Jupyter notebooks.
+In addition to this, a folder containing examples and demonstrations on how to use some of the code is included in the other folders.
