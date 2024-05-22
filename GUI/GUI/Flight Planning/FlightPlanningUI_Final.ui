@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Dubai</family>
+    <pointsize>13</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>10</y>
+      <width>1431</width>
+      <height>961</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="map_layout">
+     <item>
+      <widget class="QGraphicsView" name="map_view"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>391</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="flight_details_menu">
+     <item>
+      <widget class="QLabel" name="departure_label">
+       <property name="font">
+        <font>
+         <family>Dubai</family>
+         <pointsize>13</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Departure</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="departure_airport_label">
+       <property name="font">
+        <font>
+         <family>Dubai</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Airport</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="departure_airport"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="departure_runway_label">
+       <property name="font">
+        <font>
+         <family>Dubai</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Runway</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="departure_runway"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="arrival_label">
+       <property name="font">
+        <font>
+         <family>Dubai</family>
+         <pointsize>13</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Arrival</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="arrival_airport_label">
+       <property name="font">
+        <font>
+         <family>Dubai</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Airport</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="arrival_airport"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="arrival_runway_label">
+       <property name="font">
+        <font>
+         <family>Dubai</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Runway</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="arrival_runway"/>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="submit_flight_details_button">
+       <property name="text">
+        <string>Submit Flight Details</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>630</y>
+      <width>391</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="route_optimisation_menu">
+     <item>
+      <widget class="QLabel" name="enter_route_label">
+       <property name="font">
+        <font>
+         <family>Dubai</family>
+         <pointsize>13</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Enter Route</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="original_route_menu">
+       <item>
+        <widget class="QPlainTextEdit" name="route_text_edit"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="submit_route_button">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>Submit 
+ Route</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="optimise_route_button">
+       <property name="text">
+        <string>Optimise Route for Weather</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="zz">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1920</width>
+      <height>1080</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>43</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
